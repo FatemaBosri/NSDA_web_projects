@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm ls *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npm uninstall *)",
+      "Bash(mkdir -p partials css js assets/images assets/icons)",
+      "Bash(rm -f CSS/style.css)",
+      "Bash(rmdir CSS)",
+      "Bash(pkill -f \"http.server 8080\")",
+      "Bash(rm -f .gitignore)",
+      "Bash(mkdir -p assets/images assets/icons)",
+      "Bash(grep -n \"//\" js/*.js)",
+      "Bash(node -e ' *)",
+      "Bash(file assets/images/*.jpg assets/images/*.png)"
+    ]
+  }
+}
